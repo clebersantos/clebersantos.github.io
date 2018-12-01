@@ -4,10 +4,10 @@
 set -e
 
 # build
-npm run build
+hugo -t coder-portfolio
 
 # navigate into the build output directory
-cd dist
+cd public
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
